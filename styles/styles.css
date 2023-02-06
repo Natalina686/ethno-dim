@@ -1,0 +1,126 @@
+body {
+    font-family: "Raleway";
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* team */
+/* .container {
+    width: 1440px;
+} */
+.our-team {
+    padding-top: 96px;
+  }
+  
+  .section-title-team {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    letter-spacing: 0.02em;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .our-team {
+      padding-bottom: 128px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .our-team {
+      padding-bottom: 104px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .team-item {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .team-item {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 50px;
+      column-gap: 24px;
+    }
+  }
+  
+  .team-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .section-title-text {
+    font-weight: 700;
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  
+  .our-team-item {
+    text-align: left;
+    padding-bottom: 120px;
+    padding: 32px 16px;
+  }
+  
+  .team-list {
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .team-list:not(:last-child) {
+      margin-bottom: 72px;
+    }
+  }
+  
+  .price {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-bottom: 12px;
+  }
