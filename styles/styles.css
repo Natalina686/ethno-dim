@@ -1,5 +1,7 @@
 body {
-    font-family: "Raleway";
+  
+  font-family: 'Raleway', sans-serif;
+  
 }
 
 
@@ -37,6 +39,14 @@ ul {
   text-decoration: none;
 }
 
+.section-title-text {
+  font-family: "Dela Gothic One";
+  font-weight: 400;
+  font-size: 36px;
+  
+ margin-bottom: 45px;
+  text-align: center;
+}
 
 /* .container {
     width: 1440px;
@@ -59,24 +69,6 @@ ul {
     }
   }
   
-  @media screen and (min-width: 768px) {
-    .our-goods {
-      padding-bottom: 104px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .goods-item {
-      flex-direction: column; 
-      flex-wrap: wrap;
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        }
-    }
-    .goods-list {
-      width: 507px;
-    }
   
   
   @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -94,15 +86,7 @@ ul {
     gap: 20px;
   }
   
-  .section-title-text {
-    font-weight: 700;
-    margin-bottom: 72px;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-  }
+  
   
   .our-goods-item {
     text-align: left;
@@ -117,21 +101,6 @@ ul {
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
   
-  @media screen and (max-width: 767px) {
-   
-    .team-list {
-      width: 507px;
-    }
-    .team-item {
-     
-        flex-wrap: wrap;
-        justify-content: center;
-        row-gap: 24px;
-        column-gap: 20px;
-      }
-    
-    }
-    
   
   
   .price {
@@ -150,18 +119,36 @@ ul {
     column-gap: 50px;
   }
 
-  @media screen and (min-width: 375px) and (max-width: 766px) {
+  @media screen and (min-width: 375px) and (max-width: 767px) {
     .goods-item {
-      display: flex;
+      
       flex-wrap: wrap;
       justify-content: center;
       row-gap: 50px;
       column-gap: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
       flex-basis: calc((100% - 20px) / 2);
     }
     .goods-list {
-      /* width: 167px;  */
-     
+      width: 167px; 
+      margin-bottom: 20px;
+     height: 290px;
     }
-  
+    .section-title-goods {
+      font-weight: 300;
+      font-size: 12px;
+    }
+    .price {
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .section-title-text {
+      font-family: "Dela Gothic One";
+      font-weight: 400;
+      font-size: 18px;
+  margin-right: 20px;
+    }
   }
+  
+  
